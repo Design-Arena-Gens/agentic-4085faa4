@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Editorial touches */
+:root { --ring: 0 0% 9%; }
+
+@layer base {
+  html { font-feature-settings: "kern" 1, "liga" 1; }
+}
